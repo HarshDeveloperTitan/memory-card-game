@@ -5,18 +5,12 @@ The goal is simple: flip the cards, match pairs, and complete the game in the fe
 
 Designed with a clean UI, smooth animations, and mobile-friendly responsiveness.
 
----
-
----
-
 ## Tech Stack
 
 - **React**
 - **Vite**
 - **CSS (Custom, no frameworks)**
 - **Vercel** (Deployment)
-
----
 
 ## Features
 
