@@ -154,22 +154,22 @@ body {
   backface-visibility: hidden;
   border: 2px solid rgba(255, 255, 255, 0.1);
 
-  /* The Fix: Force large centered text */
-  font-size: 2.8rem; /* Increased from 2.4 */
+  
+  font-size: 2.8rem; 
   line-height: 1;
-  user-select: none; /* Prevents highlighting text while clicking fast */
+  user-select: none; 
 }
 
 .card-front {
   background: linear-gradient(145deg, #1e293b, #0f172a);
-  color: rgba(255, 255, 255, 0.2); /* Makes the question mark subtle */
+  color: rgba(255, 255, 255, 0.2); 
   z-index: 2;
 }
 
 .card-back {
   background: #1e1e1e;
   transform: rotateY(180deg);
-  /* Emojis often need to be slightly larger than text to look "right" */
+ 
   font-size: 3.2rem;
 }
 
